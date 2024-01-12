@@ -155,10 +155,8 @@ p{
 
 footer{
    background-color: #5d87b8 ;
-   display: flex;
-   gap: 320px;
-   justify-content: center;
-   align-items: center;
+   height: auto;
+   
    }
 
 
@@ -406,8 +404,9 @@ text-align: center;
    }
 
    footer{
-     gap: 30px;
-     height: 15vh;
+         
+     height: auto;
+     
    }
 
    /* pagina de pedidos */
