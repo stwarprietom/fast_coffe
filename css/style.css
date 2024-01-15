@@ -427,9 +427,9 @@ text-align: center;
    .acompañantes{
       display: flex;
       flex-direction: column;
-      margin: auto;
-   
-   
+      margin: auto;  
+      
+
    }
 
    /* sostenibilidad */
