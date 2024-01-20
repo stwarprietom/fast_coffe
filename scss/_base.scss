@@ -2,7 +2,25 @@
 
 $font: 'Roboto', sans-serif;
 $fontTitleFirst: 30px;
-$fontP: 16px;
+$fontSizep: 20px;
+$marginTitle: 30px;
+$maxWidth: 95%;
+
+//map
+
+$colors:(
+    'fondo': rgb(243, 242, 242),
+    'links': #274c77,
+    'menuNav':  rgba(141, 141, 141, 0.05),
+    'footer':  #5d87b8,
+    'form': rgba(141, 141, 141, 0.07),
+    'formSelect': rgb(231, 227, 227),
+
+);
+
+
+
+
 
 
 
