@@ -7,4 +7,93 @@
   list-style: none;
 }
 
+.navegador {
+  text-align: center;
+}
+.navegador.coffeNav {
+  background-color: rgba(141, 141, 141, 0.05);
+  font-size: 20px;
+}
+.navegador.coffeNav.coffeNav a {
+  color: #274c77;
+}
+
+.logo {
+  width: 15%;
+}
+
+.menu {
+  background-color: rgba(141, 141, 141, 0.05);
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  padding: 18px;
+  margin-bottom: 30px;
+}
+
+.banner {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #5d87b8;
+  height: auto;
+}
+
+/* seccion de introduccion */
+.intro {
+  display: flex;
+  max-width: 95%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.intro-img {
+  width: 50%;
+  border-radius: 2%;
+}
+
+/* pedidos index */
+.pedido {
+  text-align: center;
+  font-size: 30px;
+  font-style: bold;
+  margin-bottom: 30px;
+}
+
+/* Producto destacado */
+.producto_destacado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 95%;
+}
+
+.index-producto {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tittle-producto {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+/* selector descendente */
+.producto_destacado img {
+  border-radius: 2%;
+}
+
+.ubicacion {
+  text-align: center;
+  margin-bottom: 35px;
+}
+.ubicacion.h2 {
+  font-size: 30px;
+}
+
 /*# sourceMappingURL=main.css.map */

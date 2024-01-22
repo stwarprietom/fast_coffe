@@ -1,0 +1,62 @@
+
+/* seccion de introduccion */
+
+.intro{
+    display: flex;
+    max-width: $maxWidth;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+ }
+
+
+ .intro-img{
+    width: 50%;
+    border-radius: 2%;
+ }
+
+ /* pedidos index */
+
+.pedido{
+    text-align: center;
+    font-size: $fontTitleFirst;
+    font-style: bold;
+    margin-bottom: 30px;
+ }
+
+ /* Producto destacado */
+
+ .producto_destacado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: $maxWidth;
+ }
+
+ .index-producto{
+       text-align: center;
+       margin-bottom: 30px;
+ }
+
+ .tittle-producto{
+    font-size: $fontTitleFirst;
+    margin-bottom: 25px;
+ }
+ 
+ /* selector descendente */
+
+ .producto_destacado img{
+    border-radius: 2%;
+ }
+
+ .ubicacion{
+
+    text-align: center;
+    margin-bottom: 35px;
+
+    &.h2{
+        font-size: $fontTitleFirst;
+    }
+ }
