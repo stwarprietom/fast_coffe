@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;400;500&display=swap");
 * {
   padding: 0;
@@ -94,6 +95,76 @@ footer {
 }
 .ubicacion.h2 {
   font-size: 30px;
+}
+
+.productos {
+  text-align: center;
+  margin-top: 40px;
+  max-width: 95%;
+}
+.productos.h1 {
+  font-size: 30px;
+}
+
+.bebidas {
+  margin-top: 30px;
+  display: flex;
+  gap: 25px;
+  max-width: 95%;
+  margin-left: 4em;
+  margin-bottom: 30px;
+}
+
+.acompañantes {
+  margin-top: 30px;
+  display: flex;
+  gap: 25px;
+  max-width: 95%;
+  margin-left: 4em;
+}
+
+.form {
+  text-align: center;
+  margin-bottom: 50px;
+  max-width: 95%;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form form {
+  background-color: rgba(141, 141, 141, 0.07);
+  margin: auto;
+  width: 50%;
+  height: auto;
+  border-radius: 5%;
+}
+
+.form form label {
+  margin-top: 20px;
+  font-size: 20px;
+  font-style: bold;
+}
+
+.form form select {
+  background-color: rgb(243, 242, 242);
+  margin: auto;
+  width: 60%;
+  height: auto;
+}
+
+.form form button {
+  margin: auto;
+  width: 50%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.formulario_pedidos, .form form button:hover {
+  border: 3px solid #274c77;
 }
 
 /*# sourceMappingURL=main.css.map */

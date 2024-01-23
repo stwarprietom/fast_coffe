@@ -60,3 +60,40 @@
         font-size: $fontTitleFirst;
     }
  }
+
+//  pedidos pagina 
+
+.productos{
+   text-align: center;
+   margin-top: 40px;
+   max-width: $maxWidth;
+
+   &.h1{
+      font-size: $fontTitleFirst;
+      
+   }
+
+}
+
+.bebidas{
+   margin-top: $marginTitle;
+   display: flex;
+   gap: 25px;  
+   max-width: $maxWidth;
+   margin-left: 4em;
+   margin-bottom: $marginTitle;
+  
+}
+
+.acompañantes{
+   
+   margin-top: $marginTitle;
+   display: flex;
+   gap: 25px;  
+   max-width: $maxWidth;
+   margin-left: 4em;
+}
+
+
+
+ 
