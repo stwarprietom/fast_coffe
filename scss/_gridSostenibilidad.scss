@@ -1,0 +1,79 @@
+/* intro sostenibilidad */
+
+.grid{
+    margin: 5em 1em 10em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 200px 400px 250px;
+    gap: 40px;
+    grid-template-areas: 
+    "introSostenibilidad introSostenibilidad introSostenibilidad"
+    "compromiso compromiso compromiso"
+    "galeria galeria galeria"
+    "bienestar envase ecosistema";
+ }
+ 
+ .intro-sostenibilidad{
+
+    grid-area:  introSostenibilidad;  
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+ }
+
+ .grid img{
+         
+    grid-area: introImg ;
+    width: 40%;}
+
+ .intro-sostenibilidad article{   
+
+    grid-area: introArticle;
+    width: 50%;
+    text-align: center;        
+    flex-direction: column 100px;
+    
+ }
+
+ .intro-sostenibilidad h1{
+    text-transform: uppercase;           
+ }
+
+ /* section compromiso */
+
+.compromiso{
+
+    grid-area: compromiso;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    
+    
+    }
+
+    .compromiso article p{
+        margin-top: 50px;
+        
+        }
+
+        .galeria{
+            grid-area: galeria;
+            text-align: center;
+            }
+            
+
+ .bienestar{
+    grid-area: bienestar;
+    text-align: center;
+
+    }
+ .envase{
+        grid-area: envase;
+        text-align: center;
+        }
+        
+.ecosistema{
+        grid-area: ecosistema;
+        text-align: center;
+        }
