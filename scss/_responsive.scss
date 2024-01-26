@@ -37,13 +37,7 @@
     .ubicacion{
         margin: auto;
   
-     }
-
-     footer{
-
-      height: auto;
-      
-     }
+     } 
           
       /* pagina de pedidos */
 
@@ -56,15 +50,54 @@
       display: flex;
       flex-direction: column;
       margin: auto;     
-      margin-bottom: 130vh;
+       // margin-bottom: 130vh;
    }
 
    .acompañantes{
       display: flex;
       flex-direction: column;
-      margin: auto;        
+      margin: auto;       
 
    }
+
+   
+   /* sostenibilidad */
+
+   .intro-sostenibilidad{
+      display: flex;
+      flex-direction: column;      
+      align-items: center;
+      margin-bottom: 2vh;
+      text-align: justify;
+   }
+
+   .compromiso{
+      margin-top: 12vh;
+          
+   }
+
+   .galeria{
+      margin-top: 50vh;
+   }
+   
+   .marginTop {
+      margin-top: 6vh;
+
+   }
+  
+  .marginF{
+
+   margin-top: 200vh;
+
+  }
+  
+  .margingrid{
+   margin-bottom: 200vh;
+  }
+
+  .frase{
+   text-align: center;
+  }
 
       
 }
