@@ -1,0 +1,70 @@
+@media only screen and (min-width:280px) and (max-width:770px){ 
+   
+    p {
+        margin-bottom: 15px;
+     }
+
+     .menu{
+        font-size: 80%;
+     }
+
+     .banner{
+        display: none;
+     }
+
+     .intro, .producto_destacado{
+
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 95%;
+        margin: auto;
+     }
+
+     .intro-img{
+        margin-bottom: 15px;
+     }
+
+     .producto_destacado img{
+        width: 50%;
+        height: auto;
+     }
+ 
+    .ubicacion{
+       margin: auto;
+ 
+    }
+     
+    .ubicacion{
+        margin: auto;
+  
+     }
+
+     footer{
+
+      height: auto;
+      
+     }
+          
+      /* pagina de pedidos */
+
+   .productos{
+      display: flex;
+      flex-direction: column;      
+   }
+
+   .bebidas{
+      display: flex;
+      flex-direction: column;
+      margin: auto;     
+      margin-bottom: 130vh;
+   }
+
+   .acompañantes{
+      display: flex;
+      flex-direction: column;
+      margin: auto;        
+
+   }
+
+      
+}

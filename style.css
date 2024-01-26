@@ -379,9 +379,11 @@ text-align: center;
       font-size: 80%;
       
    }
+
    .banner{
       display: none;
    }
+   
    .intro, .producto_destacado{
 
       display: flex;
