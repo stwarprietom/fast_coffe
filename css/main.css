@@ -311,7 +311,7 @@ footer {
     text-align: justify;
   }
   .compromiso {
-    margin-top: 12vh;
+    margin-top: 16vh;
   }
   .galeria {
     margin-top: 50vh;
@@ -327,13 +327,13 @@ footer {
     margin-top: 70vh;
   }
   .margingrid {
-    margin-bottom: 120vh;
+    margin-bottom: 130vh;
   }
   .form {
     max-width: 95%;
     background-color: none;
   }
-  #mensaje {
+  textarea {
     max-width: 95%;
   }
   .frase {
