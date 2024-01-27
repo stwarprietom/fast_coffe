@@ -194,7 +194,7 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 300px 200px 400px 250px;
   gap: 40px;
-  grid-template-areas: "introSostenibilidad introSostenibilidad introSostenibilidad" "compromiso compromiso compromiso" "galeria galeria galeria" "bienestar envase ecosistema";
+  grid-template-areas: "introSostenibilidad introSostenibilidad introSostenibilidad" "compromiso compromiso compromiso" "galeria galeria galeria" "bienestar bienestar bienestar";
 }
 
 .intro-sostenibilidad {
@@ -236,6 +236,11 @@ footer {
 .galeria {
   grid-area: galeria;
   text-align: center;
+}
+
+.caracteristic {
+  grid-area: bienestar;
+  display: flex;
 }
 
 .bienestar {
@@ -311,14 +316,25 @@ footer {
   .galeria {
     margin-top: 50vh;
   }
+  .caracteristic {
+    display: flex;
+    flex-direction: column;
+  }
   .marginTop {
     margin-top: 6vh;
   }
   .marginF {
-    margin-top: 200vh;
+    margin-top: 70vh;
   }
   .margingrid {
-    margin-bottom: 200vh;
+    margin-bottom: 120vh;
+  }
+  .form {
+    max-width: 95%;
+    background-color: none;
+  }
+  #mensaje {
+    max-width: 95%;
   }
   .frase {
     text-align: center;

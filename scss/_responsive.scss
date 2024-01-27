@@ -50,7 +50,7 @@
       display: flex;
       flex-direction: column;
       margin: auto;     
-       // margin-bottom: 130vh;
+      
    }
 
    .acompañantes{
@@ -80,6 +80,13 @@
       margin-top: 50vh;
    }
    
+   .caracteristic{
+      display: flex;
+      flex-direction: column;
+   }
+
+
+
    .marginTop {
       margin-top: 6vh;
 
@@ -87,17 +94,27 @@
   
   .marginF{
 
-   margin-top: 200vh;
+   margin-top: 70vh;
 
   }
   
   .margingrid{
-   margin-bottom: 200vh;
+   margin-bottom: 120vh;
   }
 
+  .form{
+   max-width: $maxWidth;
+   background-color: none;
+  }  
+
+   #mensaje{
+      max-width: $maxWidth;
+   }
+  
   .frase{
    text-align: center;
   }
+
 
       
 }

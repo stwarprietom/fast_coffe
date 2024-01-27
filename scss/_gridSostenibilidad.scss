@@ -10,7 +10,7 @@
     "introSostenibilidad introSostenibilidad introSostenibilidad"
     "compromiso compromiso compromiso"
     "galeria galeria galeria"
-    "bienestar envase ecosistema";
+    "bienestar bienestar bienestar";
  }
  
  .intro-sostenibilidad{
@@ -62,7 +62,11 @@
             text-align: center;
             }
             
-
+ .caracteristic{
+   grid-area: bienestar;
+   display: flex;
+   }
+            
  .bienestar{
     grid-area: bienestar;
     text-align: center;
