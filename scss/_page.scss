@@ -97,6 +97,25 @@
 
 /* pagina de nosotros */
 
+.bannerContent{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.capa{
+   position: absolute; 
+}
+
+.info{
+   z-index: 1;
+   text-transform: uppercase;
+   color: aliceblue;
+}
+
+
+
 .main-mosotros,  .mision, .vision{
    text-align: center;
    max-width: $maxWidth;

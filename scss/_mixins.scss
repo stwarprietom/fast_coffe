@@ -1,0 +1,17 @@
+
+// extendes
+.article_base{
+    font-size: 18px;
+    align-items:center;
+    font-style: bold;
+    max-width: $maxWidth;
+    
+}
+
+.intro_article{
+    @extend .article_base;
+    font-size: 16px;
+    color: black;
+}
+
+// mixins 

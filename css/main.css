@@ -123,6 +123,23 @@ footer {
 }
 
 /* pagina de nosotros */
+.bannerContent {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.capa {
+  position: absolute;
+}
+
+.info {
+  z-index: 1;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
 .main-mosotros, .mision, .vision {
   text-align: center;
   max-width: 95%;
@@ -342,6 +359,17 @@ footer {
   .frase {
     text-align: center;
   }
+}
+.article_base, .intro_article {
+  font-size: 18px;
+  align-items: center;
+  font-style: bold;
+  max-width: 95%;
+}
+
+.intro_article {
+  font-size: 16px;
+  color: black;
 }
 
 /*# sourceMappingURL=main.css.map */
