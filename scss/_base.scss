@@ -18,8 +18,8 @@ $colors:(
     'links': #274c77,
     'menuNav': rgba(226, 129, 44, 0.12),
     'footer':  #674634,
-    'form': rgba(141, 141, 141, 0.07),
-    'formSelect': rgb(231, 227, 227),
+    'form': rgba(237, 210, 155, 0.2),
+    'formSelect': rgb(239, 228, 195),
 
 );  
 
@@ -36,6 +36,6 @@ $colors:(
  }
 
  body{
-    background: var($backgorundColor);
+    color-scheme: var($backgorundColor);
  }
  
