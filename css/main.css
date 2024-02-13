@@ -8,14 +8,23 @@
   list-style: none;
 }
 
+h1, h2, h3 {
+  color: #674634;
+}
+
+body {
+  background: var(#ab9680);
+}
+
 .navegador {
   text-align: center;
 }
-.navegador.coffeNav {
-  background-color: rgba(141, 141, 141, 0.05);
+
+.coffeNav {
+  background-color: rgba(226, 129, 44, 0.12);
   font-size: 20px;
 }
-.navegador.coffeNav.coffeNav a {
+.coffeNav.coffeNav a {
   color: #274c77;
 }
 
@@ -24,7 +33,7 @@
 }
 
 .menu {
-  background-color: rgba(141, 141, 141, 0.05);
+  background-color: rgba(226, 129, 44, 0.12);
   display: flex;
   justify-content: space-evenly;
   font-size: 20px;
@@ -32,13 +41,9 @@
   margin-bottom: 30px;
 }
 
-.banner {
-  width: 100%;
-  margin-bottom: 15px;
-}
-
 footer {
-  background-color: #5d87b8;
+  background-color: #674634;
+  color: aliceblue;
 }
 
 /* seccion de introduccion */
@@ -56,12 +61,33 @@ footer {
   border-radius: 2%;
 }
 
+.textBaner {
+  z-index: 1;
+  text-align: center;
+  font-size: 200px;
+  font-style: bold;
+  color: aliceblue;
+  text-shadow: 1px 1px 2px black;
+}
+
+.textBaner h1 {
+  color: aliceblue;
+}
+
+.textBaner p {
+  font-size: 30px;
+}
+
 /* pedidos index */
 .pedido {
+  color: #674634;
+  text-shadow: 1px 1px 2px white;
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
   font-style: bold;
   margin-bottom: 30px;
+  text-decoration: none;
+  list-style: none;
 }
 
 /* Producto destacado */
@@ -100,6 +126,7 @@ footer {
   text-align: center;
   margin-top: 40px;
   max-width: 95%;
+  margin-bottom: 30px;
 }
 .productos.h1 {
   font-size: 30px;
@@ -137,6 +164,10 @@ footer {
 .info {
   z-index: 1;
   text-transform: uppercase;
+  color: aliceblue;
+}
+
+.info h1 {
   color: aliceblue;
 }
 
@@ -285,6 +316,9 @@ footer {
   .banner {
     display: none;
   }
+  .capa {
+    display: none;
+  }
   .intro, .producto_destacado {
     display: flex;
     flex-direction: column-reverse;
@@ -370,6 +404,12 @@ footer {
 .intro_article {
   font-size: 16px;
   color: black;
+}
+
+.banner {
+  width: 100%;
+  margin-bottom: 15px;
+  height: auto;
 }
 
 /*# sourceMappingURL=main.css.map */

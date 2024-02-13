@@ -16,13 +16,35 @@
     border-radius: 2%;
  }
 
+ .textBaner{
+   z-index: 1;
+   text-align: center;
+   font-size: 200px;
+   font-style: bold;
+   color: aliceblue;
+   text-shadow: 1px 1px 2px black; 
+
+    }
+
+    .textBaner h1{
+      color: aliceblue;
+    }
+
+   .textBaner p {
+      font-size: 30px;
+   }
+
  /* pedidos index */
 
 .pedido{
+   color: map-get($map: $colors, $key: footer);
+   text-shadow: 1px 1px 2px white; 
     text-align: center;
-    font-size: $fontTitleFirst;
+    font-size: 50px;
     font-style: bold;
     margin-bottom: 30px;
+    text-decoration: none;
+    list-style: none;
  }
 
  /* Producto destacado */
@@ -67,6 +89,7 @@
    text-align: center;
    margin-top: 40px;
    max-width: $maxWidth;
+   margin-bottom: 30px;
 
    &.h1{
       font-size: $fontTitleFirst;
@@ -83,6 +106,7 @@
    margin-left: 4em;
    margin-bottom: $marginTitle;
   
+
 }
 
 .acompañantes{
@@ -93,6 +117,8 @@
    max-width: $maxWidth;
    margin-left: 4em;
 }
+
+
 
 
 /* pagina de nosotros */
@@ -114,6 +140,9 @@
    color: aliceblue;
 }
 
+.info h1 {
+   color: aliceblue;
+}
 
 
 .main-mosotros,  .mision, .vision{

@@ -11,6 +11,7 @@
   "author": "wilmer stwar prieto m",
   "license": "ISC",
   "dependencies": {
+    "bootstrap-icons": "^1.11.3",
     "sass": "^1.70.0"
   }
 }

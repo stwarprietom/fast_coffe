@@ -1,22 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;400;500&display=swap');
 
+
+$backgorundColor:#ab9680;
 $font: 'Roboto', sans-serif;
 $fontTitleFirst: 30px;
 $fontSizep: 20px;
 $marginTitle: 30px;
 $maxWidth: 95%;
+$width:100%;
+$margin: 15px;
+$heigth: auto;
 
 //map
 
 $colors:(
     'fondo': rgb(243, 242, 242),
     'links': #274c77,
-    'menuNav':  rgba(141, 141, 141, 0.05),
-    'footer':  #5d87b8,
+    'menuNav': rgba(226, 129, 44, 0.12),
+    'footer':  #674634,
     'form': rgba(141, 141, 141, 0.07),
     'formSelect': rgb(231, 227, 227),
 
-);
+);  
 
 *{
     padding: 0;
@@ -24,5 +29,13 @@ $colors:(
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+ }
+
+ h1, h2, h3 {
+    color: map-get($map: $colors, $key: footer);
+ }
+
+ body{
+    background: var($backgorundColor);
  }
  
