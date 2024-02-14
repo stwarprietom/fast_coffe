@@ -29,7 +29,7 @@ body {
 }
 
 .logo {
-  width: 15%;
+  width: 10%;
 }
 
 .menu {
@@ -208,11 +208,12 @@ footer ul li a {
 }
 
 .form form {
-  background-color: rgba(237, 210, 155, 0.2);
+  background-color: rgba(237, 210, 155, 0.09);
   margin: auto;
   width: 50%;
   height: auto;
-  border-radius: 5%;
+  border: none;
+  box-shadow: 1px 1px 1px 2px rgba(135, 112, 72, 0.2);
 }
 
 .form form label {
